@@ -6,6 +6,13 @@ management:
   endpoint:
     info:
       enabled: true  # Make sure /actuator/info is enabled
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
 eureka:
   client:
     register-with-eureka: true
